@@ -52,6 +52,12 @@ jobs:
           TINYTEX_INSTALLER: TinyTeX
 
       - uses: r-lib/actions/setup-pandoc@v2
+        if: matrix.config.latex == 'true'
+
+      - uses: actions/setup-java@v1
+        if: matrix.config.java == 'true'
+        with:
+          java-version: 8
 
       # set date/week for use in cache creation
       # https://github.community/t5/GitHub-Actions/How-to-set-and-access-a-Workflow-variable/m-p/42970
