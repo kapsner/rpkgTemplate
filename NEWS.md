@@ -18,8 +18,10 @@
 
 #### Other changes
 
+-   fixed badge url
+    ([681232c](https://github.com/kapsner/rpkgTemplate/tree/681232c309896969005a36f9979d47cbeb114669))
 -   added news.md
     ([b1fa3d5](https://github.com/kapsner/rpkgTemplate/tree/b1fa3d50fdbcb8dbb9fffebfd3230e6570e59691))
 
 Full set of changes:
-[`115b0f1...b1fa3d5`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...b1fa3d5)
+[`115b0f1...8bfe834`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...8bfe834)
