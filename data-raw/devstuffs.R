@@ -58,11 +58,61 @@ usethis::use_package("lintr", type = "Suggests")
 usethis::use_package("knitr", type = "Suggests")
 
 
-# dev packages
-# tag <- "master"
-# devtools::install_github(repo = "r-lib/testthat", ref = tag, upgrade = "always")
-# # https://cran.r-project.org/web/packages/devtools/vignettes/dependencies.html
-# desc::desc_set_remotes(paste0("github::r-lib/testthat@", tag), file = usethis::proj_get())
+# define remotes
+# remotes_append_vector <- NULL
+#
+# # Development package 1
+# tag1 <- "master" # e.g. "v0.1.7", "development" or "cran"
+# if (tag1 == "cran") {
+#   install.packages("data.table")
+# } else{
+#   remotes::install_github(
+#     repo = "Rdatatable/data.table",
+#     ref = "master"
+#   )
+#   # add_remotes <- paste0(
+#   #   "url::https://gitlab.miracum.org/miracum/misc/diztools/-/archive/", tools_tag, "/diztools-", tools_tag, ".zip"
+#   # )
+#   add_remotes <- paste0(
+#     "github::Rdatatable/data.table@", tools_tag
+#   )
+#
+#   if (is.null(remotes_append_vector)) {
+#     remotes_append_vector <- add_remotes
+#   } else {
+#     remotes_append_vector <- c(remotes_append_vector, add_remotes)
+#   }
+# }
+#
+# tag2 <- "development" # e.g. "v0.1.7", "development" or "cran"
+# if (tag2 == "cran") {
+#   install.packages("magrittr")
+# } else{
+#   remotes::install_github(
+#     repo = "tidyverse/magrittr",
+#     ref = "main"
+#   )
+#   # add_remotes <- paste0(
+#   #   "url::https://gitlab.miracum.org/miracum/misc/dizutils/-/archive/", utils_tag, "/dizutils-", utils_tag, ".zip"
+#   # )
+#   add_remotes <- paste0(
+#     "github::tidyverse/magrittr@", tag2
+#   )
+#
+#   if (is.null(remotes_append_vector)) {
+#     remotes_append_vector <- add_remotes
+#   } else {
+#     remotes_append_vector <- c(remotes_append_vector, add_remotes)
+#   }
+# }
+#
+# # finally, add remotes (if required)
+# if (!is.null(remotes_append_vector)) {
+#   desc::desc_set_remotes(
+#     remotes_append_vector,
+#     file = usethis::proj_get()
+#   )
+# }
 
 usethis::use_build_ignore("cran-comments.md")
 usethis::use_build_ignore(".lintr")
