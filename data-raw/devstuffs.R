@@ -68,13 +68,13 @@ usethis::use_package("knitr", type = "Suggests")
 # } else{
 #   remotes::install_github(
 #     repo = "Rdatatable/data.table",
-#     ref = "master"
+#     ref = tag1
 #   )
 #   # add_remotes <- paste0(
 #   #   "url::https://gitlab.miracum.org/miracum/misc/diztools/-/archive/", tools_tag, "/diztools-", tools_tag, ".zip"
 #   # )
 #   add_remotes <- paste0(
-#     "github::Rdatatable/data.table@", tools_tag
+#     "github::Rdatatable/data.table@", tag1
 #   )
 #
 #   if (is.null(remotes_append_vector)) {
@@ -84,13 +84,13 @@ usethis::use_package("knitr", type = "Suggests")
 #   }
 # }
 #
-# tag2 <- "development" # e.g. "v0.1.7", "development" or "cran"
+# tag2 <- "main" # e.g. "v0.1.7", "development" or "cran"
 # if (tag2 == "cran") {
 #   install.packages("magrittr")
 # } else{
 #   remotes::install_github(
 #     repo = "tidyverse/magrittr",
-#     ref = "main"
+#     ref = tag2
 #   )
 #   # add_remotes <- paste0(
 #   #   "url::https://gitlab.miracum.org/miracum/misc/dizutils/-/archive/", utils_tag, "/dizutils-", utils_tag, ".zip"
