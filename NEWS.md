@@ -1,6 +1,11 @@
 # rpkgTemplate NEWS
 
-## Unreleased (2022-09-06)
+## Unreleased (2022-09-27)
+
+#### Refactorings
+
+-   added zzz.r
+    ([ac83fde](https://github.com/kapsner/rpkgTemplate/tree/ac83fde8dfe23b08c8f863cfa1ce2ee8d1e0f4b0))
 
 #### CI
 
@@ -18,10 +23,12 @@
 
 #### Other changes
 
+-   commands to add packages to remotes section
+    ([3a6fe6f](https://github.com/kapsner/rpkgTemplate/tree/3a6fe6f26ebe55abf1c239d61ae253cc8a223744))
 -   fixed badge url
     ([681232c](https://github.com/kapsner/rpkgTemplate/tree/681232c309896969005a36f9979d47cbeb114669))
 -   added news.md
     ([b1fa3d5](https://github.com/kapsner/rpkgTemplate/tree/b1fa3d50fdbcb8dbb9fffebfd3230e6570e59691))
 
 Full set of changes:
-[`115b0f1...8bfe834`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...8bfe834)
+[`115b0f1...3a6fe6f`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...3a6fe6f)
