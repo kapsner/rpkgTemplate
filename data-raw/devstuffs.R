@@ -10,16 +10,15 @@ my_desc$set("Package", packagename)
 #Set your name
 my_desc$set_authors(c(
   person(
-    given = "Lorenz A.",
-    family = "Kapsner",
-    email = "lorenz.kapsner@gmail.com",
-    role = c('cre', 'aut', 'cph'),
-    comment = c(ORCID = "0000-0003-1866-860X")
+    given = "John",
+    family = "Doe",
+    email = "john.doe@johnmail.com",
+    role = c('cre', 'aut', 'cph')
   )))
 # Remove some author fields
 my_desc$del("Maintainer")
 # Set the version
-my_desc$set_version("0.0.0.9003")
+my_desc$set_version("0.0.0.9001")
 # The title of your package
 my_desc$set(Title = "Template for Creating R Packages")
 # The description of your package
