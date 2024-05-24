@@ -1,6 +1,11 @@
 # rpkgTemplate NEWS
 
-## Unreleased (2022-10-02)
+## Unreleased (2022-10-18)
+
+#### New features
+
+-   added testthat config and roxygen option to description
+    ([76aec65](https://github.com/kapsner/rpkgTemplate/tree/76aec653a8f205c8cfd46140a02125d2d26f0f99))
 
 #### Refactorings
 
@@ -23,6 +28,10 @@
 
 #### Other changes
 
+-   udpated badge urls to point to main-branch
+    ([aa7937b](https://github.com/kapsner/rpkgTemplate/tree/aa7937b9a9dea0a9d044c215cc253fa35974433f))
+-   replaced with general metadata
+    ([ee2b099](https://github.com/kapsner/rpkgTemplate/tree/ee2b0998712107c430e8460f929c432e05dddcf0))
 -   added codecov badge
     ([17b4edc](https://github.com/kapsner/rpkgTemplate/tree/17b4edc18101d43be881e6942a82301d5c57e395))
 -   fixed wrong object name for remotes
@@ -39,4 +48,4 @@
     ([b1fa3d5](https://github.com/kapsner/rpkgTemplate/tree/b1fa3d50fdbcb8dbb9fffebfd3230e6570e59691))
 
 Full set of changes:
-[`115b0f1...17b4edc`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...17b4edc)
+[`115b0f1...76aec65`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...76aec65)
