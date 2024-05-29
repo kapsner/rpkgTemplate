@@ -1,6 +1,8 @@
+
+
 # rpkgTemplate NEWS
 
-## Unreleased (2022-10-18)
+## Unreleased (2024-05-24)
 
 #### New features
 
@@ -14,6 +16,8 @@
 
 #### CI
 
+-   updated gha
+    ([a6a4e98](https://github.com/kapsner/rpkgTemplate/tree/a6a4e98632929df33f33a49444fed3cd3fae3204))
 -   add workflow to automatically update tic.yml
     ([31d5711](https://github.com/kapsner/rpkgTemplate/tree/31d57111c513187677556349f94a4adcbceba6e4))
 -   updated tic.yml
@@ -28,6 +32,8 @@
 
 #### Other changes
 
+-   added automated generation of readme
+    ([6a715b8](https://github.com/kapsner/rpkgTemplate/tree/6a715b87b2fe466b7581b2bea3f15e2404fc689a))
 -   udpated badge urls to point to main-branch
     ([aa7937b](https://github.com/kapsner/rpkgTemplate/tree/aa7937b9a9dea0a9d044c215cc253fa35974433f))
 -   replaced with general metadata
@@ -48,4 +54,4 @@
     ([b1fa3d5](https://github.com/kapsner/rpkgTemplate/tree/b1fa3d50fdbcb8dbb9fffebfd3230e6570e59691))
 
 Full set of changes:
-[`115b0f1...76aec65`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...76aec65)
+[`115b0f1...a6a4e98`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...a6a4e98)

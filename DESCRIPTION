@@ -8,7 +8,7 @@ License: GPL (>= 3)
 URL: https://github.com/kapsner/rpkgTemplate
 BugReports: https://github.com/kapsner/rpkgTemplate/issues
 Depends: 
-    R (>= 2.10)
+    R (>= 3.6)
 Imports: 
     data.table,
     magrittr
@@ -17,9 +17,10 @@ Suggests:
     lintr,
     testthat (>= 3.0.1)
 VignetteBuilder: 
-    knitr
+    quarto
 Config/testthat/edition: 3
 Config/testthat/parallel: false
-Date/Publication: 2024-05-24 09:33:56.261687 UTC
+Date/Publication: 2024-05-29 11:47:18.216411 UTC
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1

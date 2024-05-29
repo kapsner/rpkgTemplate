@@ -33,7 +33,13 @@ my_desc$set("BugReports",
             "https://github.com/kapsner/rpkgTemplate/issues")
 
 # Vignette Builder
-my_desc$set("VignetteBuilder" = "knitr")
+my_desc$set("VignetteBuilder" = "quarto")
+
+# Quarto
+# my_desc$set("SystemRequirements" = paste0(
+#   "Quarto command line tools ",
+#   "(https://github.com/quarto-dev/quarto-cli).")
+# )
 
 # License
 my_desc$set("License", "GPL-3")
@@ -51,7 +57,7 @@ my_desc$write(file = "DESCRIPTION")
 usethis::use_gpl3_license()
 
 # Depends
-usethis::use_package("R", min_version = "2.10", type = "Depends")
+usethis::use_package("R", min_version = "3.6", type = "Depends")
 
 # Imports
 # https://cran.r-project.org/web/packages/data.table/vignettes/datatable-importing.html
