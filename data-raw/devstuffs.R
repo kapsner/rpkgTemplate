@@ -41,9 +41,6 @@ my_desc$set("VignetteBuilder" = "quarto")
 #   "(https://github.com/quarto-dev/quarto-cli).")
 # )
 
-# License
-my_desc$set("License", "GPL-3")
-
 # Testthat stuff
 my_desc$set("Config/testthat/parallel" = "false")
 my_desc$set("Config/testthat/edition" = "3")

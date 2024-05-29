@@ -20,7 +20,6 @@ VignetteBuilder:
     quarto
 Config/testthat/edition: 3
 Config/testthat/parallel: false
-Date/Publication: 2024-05-29 11:47:18.216411 UTC
+Date/Publication: 2024-05-29 14:58:31.444381 UTC
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1

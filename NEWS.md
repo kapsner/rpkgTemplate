@@ -2,7 +2,7 @@
 
 # rpkgTemplate NEWS
 
-## Unreleased (2024-05-24)
+## Unreleased (2024-05-29)
 
 #### New features
 
@@ -32,6 +32,8 @@
 
 #### Other changes
 
+-   updated devstuffs
+    ([11e5aa4](https://github.com/kapsner/rpkgTemplate/tree/11e5aa4f6709f71bc0c353aa4672f358da4dc598))
 -   added automated generation of readme
     ([6a715b8](https://github.com/kapsner/rpkgTemplate/tree/6a715b87b2fe466b7581b2bea3f15e2404fc689a))
 -   udpated badge urls to point to main-branch
@@ -54,4 +56,4 @@
     ([b1fa3d5](https://github.com/kapsner/rpkgTemplate/tree/b1fa3d50fdbcb8dbb9fffebfd3230e6570e59691))
 
 Full set of changes:
-[`115b0f1...a6a4e98`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...a6a4e98)
+[`115b0f1...11e5aa4`](https://github.com/kapsner/rpkgTemplate/compare/115b0f1...11e5aa4)
